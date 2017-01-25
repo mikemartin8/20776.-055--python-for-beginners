@@ -1,0 +1,36 @@
+## Michael Martin
+## 1/21/2017
+## Homework #1
+
+## Ask the user what their dream job is and display it back to the user
+dream_job =             raw_input("What is your dream job? \n")
+print "Your dream job would be being a", dream_job
+
+## Ask what the hourly wage is he/she wishes to earn and display it back
+hourly_wage =           raw_input("What is the hourly wage you wish to earn?\n")
+print "As a", dream_job, ", you wish to earn $", hourly_wage, "per hour"
+
+## Confirming that the user input a dollar amount as only a number to
+## two decimal places
+try:
+    hourly = float(hourly_wage)
+except ValueError:
+    print "The hourly wage you entered (", hourly_wage, ") must be a rational number only. Also, please do not enter the dollar sign nor commas."
+
+## Commenting to the user what their pre-tax salary will be
+num_paid_weeks =        52
+num_hours_per_week =    40
+print "As a",dream_job,", making $", hourly,", you will make $",int(num_paid_weeks) * int(num_hours_per_week) * int(hourly_wage),"per year, before taxes"
+
+
+## Asking about their desired cash savings desires at retirement
+retirement_cash =       raw_input("How much cash would you like to have at retirement?")
+
+## Confirming that the user input a dollar amount as only a number to
+## two decimal places
+try:
+    retirement = float(retirement_cash)
+except ValueError:
+    print "You desired retirement amount (", retirement, ") must be a rational number only. Also, please do not enter the dollar sign nor commas."
+else:
+    print "Your desired retirement amount is $", retirement,"."
