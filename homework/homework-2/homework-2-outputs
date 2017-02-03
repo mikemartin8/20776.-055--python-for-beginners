@@ -1,0 +1,102 @@
+﻿Python 2.7.3 (v2.7.3:70274d53c1dd, Apr  9 2012, 20:52:43) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+Enter either one lower case or upper case letter: A
+True: the input letter is a vowel.
+False: the input letter is NOT a lower case vowel.
+True: the input letter is an upper case vowel.
+
+Enter either one lower case or upper case letter: a
+True: the input letter is a vowel.
+True: the input letter is a lower case vowel.
+False: the input letter is NOT an upper case vowel.
+
+Enter either one lower case or upper case letter: E
+True: the input letter is a vowel.
+False: the input letter is NOT a lower case vowel.
+True: the input letter is an upper case vowel.
+
+Enter either one lower case or upper case letter: e
+True: the input letter is a vowel.
+True: the input letter is a lower case vowel.
+False: the input letter is NOT an upper case vowel.
+
+Enter either one lower case or upper case letter: I
+True: the input letter is a vowel.
+False: the input letter is NOT a lower case vowel.
+True: the input letter is an upper case vowel.
+
+Enter either one lower case or upper case letter: i
+True: the input letter is a vowel.
+True: the input letter is a lower case vowel.
+False: the input letter is NOT an upper case vowel.
+
+Enter either one lower case or upper case letter: O
+True: the input letter is a vowel.
+False: the input letter is NOT a lower case vowel.
+True: the input letter is an upper case vowel.
+
+Enter either one lower case or upper case letter: o
+True: the input letter is a vowel.
+True: the input letter is a lower case vowel.
+False: the input letter is NOT an upper case vowel.
+
+Enter either one lower case or upper case letter: U
+True: the input letter is a vowel.
+False: the input letter is NOT a lower case vowel.
+True: the input letter is an upper case vowel.
+
+Enter either one lower case or upper case letter: u
+True: the input letter is a vowel.
+True: the input letter is a lower case vowel.
+False: the input letter is NOT an upper case vowel.
+
+Enter either one lower case or upper case letter: Y
+False: your input was not a vowel.
+
+Enter either one lower case or upper case letter: y
+False: your input was not a vowel.
+
+Enter either one lower case or upper case letter: $
+False: your input was not a vowel.
+
+Enter either one lower case or upper case letter: Homer Simpson
+too many letters!
+Enter either one lower case or upper case letter: Piano Man
+too many letters!
+Enter either one lower case or upper case letter: Festivus
+too many letters!
+Enter either one lower case or upper case letter: "
+False: your input was not a vowel.
+
+Enter either one lower case or upper case letter: ::
+too many letters!
+Enter either one lower case or upper case letter: ""
+too many letters!
+Enter either one lower case or upper case letter:  
+False: your input was not a vowel.
+
+Enter either one lower case or upper case letter: 
+too many letters!
+Enter either one lower case or upper case letter: 	
+False: your input was not a vowel.
+
+Enter either one lower case or upper case letter: ?
+False: your input was not a vowel.
+
+Enter either one lower case or upper case letter: /
+False: your input was not a vowel.
+
+Enter either one lower case or upper case letter: +
+False: your input was not a vowel.
+
+Enter either one lower case or upper case letter: =
+False: your input was not a vowel.
+
+Enter either one lower case or upper case letter: ˚
+False: your input was not a vowel.
+
+Enter either one lower case or upper case letter: quit
+>>> 
