@@ -1,4 +1,4 @@
-## Michael Martin
+5## Michael Martin
 ## 2/3/2017
 ## Homework #3
 
@@ -11,7 +11,7 @@
 ## word starts with a vowel. In which case, the word remains as is, but is
 ## appended with the letters "hay".
 
-vowels = ['A','a','E','e','I','i','O','o','U','u']
+vowels = ['a','e','i','o','u']
 
 def AskUserForSentence():
     while True:
@@ -25,7 +25,6 @@ def AskUserForSentence():
         elif len(listed_sentence) > 3:
             print 'Your sentence has too many words!'
         else:
-            print '...'
             blah = ConvertWordToPigLatin(listed_sentence)
             print blah
 
@@ -47,7 +46,13 @@ def ConvertWordToPigLatin(listed_sentence):
     if first_word.isalpha() == False or second_word.isalpha() == False or third_word == False:
         print 'Your sentence contain letters only!'
     else:
-        return
+        if (first_word[0] in vowels) == 1:
+            print first_word + 'hay'
+        else:
+            print first_word[1:len(first_word)] + first_word[0] + 'ay'
+            
+
+        
 AskUserForSentence()
 ##def ConvertWordToPigLatin
 ##def PrintThreeWordPhrase
