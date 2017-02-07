@@ -25,9 +25,9 @@ def AskUserForSentence():
         elif len(listed_sentence) > 3:
             print 'Your sentence has too many words!'
         else:
-            blah = ConvertWordToPigLatin(listed_sentence)
-            print blah
-
+            pig_latin = ConvertWordToPigLatin(listed_sentence)
+            PrintThreeWordPhrase(pig_latin[0],pig_latin[1],pig_latin[2])
+            
 ## function to force sentence to be lower case
 def LowercaseSentence(sentence):
     lower_case_sentence = sentence.lower()
@@ -47,12 +47,21 @@ def ConvertWordToPigLatin(listed_sentence):
         print 'Your sentence contain letters only!'
     else:
         if (first_word[0] in vowels) == 1:
-            print first_word + 'hay'
+            first_pig_latin = first_word + 'hay'
         else:
-            print first_word[1:len(first_word)] + first_word[0] + 'ay'
-            
+            first_pig_latin = first_word[1:len(first_word)] + first_word[0] + 'ay'
+        if (second_word[0] in vowels) == 1:
+            second_pig_latin = second_word + 'hay'
+        else:
+            second_pig_latin = second_word[1:len(second_word)] + second_word[0] + 'ay'
+        if (third_word[0] in vowels) == 1:
+            third_pig_word = third_word + 'hay'
+        else:
+            third_pig_word =  third_word[1:len(third_word)] + third_word[0] + 'ay'
+        return (first_pig_latin, second_pig_latin, third_pig_word)
 
-        
+## function to print the three words in Pig Latin
+def PrintThreeWordPhrase(word_one,word_two,word_three):
+    print word_one , word_two , word_three
+
 AskUserForSentence()
-##def ConvertWordToPigLatin
-##def PrintThreeWordPhrase
