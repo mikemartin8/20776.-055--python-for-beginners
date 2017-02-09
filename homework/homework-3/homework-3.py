@@ -1,4 +1,4 @@
-5## Michael Martin
+## Michael Martin
 ## 2/3/2017
 ## Homework #3
 
@@ -26,8 +26,11 @@ def AskUserForSentence():
             print 'Your sentence has too many words!'
         else:
             pig_latin = ConvertWordToPigLatin(listed_sentence)
-            PrintThreeWordPhrase(pig_latin[0],pig_latin[1],pig_latin[2])
-            
+            if pig_latin is None:
+                print 'Your inputs must be letters only!'
+            else:
+                PrintThreeWordPhrase(pig_latin[0],pig_latin[1],pig_latin[2])
+
 ## function to force sentence to be lower case
 def LowercaseSentence(sentence):
     lower_case_sentence = sentence.lower()
@@ -44,7 +47,7 @@ def ConvertWordToPigLatin(listed_sentence):
     second_word =   listed_sentence[1]
     third_word =    listed_sentence[2]
     if first_word.isalpha() == False or second_word.isalpha() == False or third_word == False:
-        print 'Your sentence contain letters only!'
+        print 'Your sentence must contain letters only!'
     else:
         if (first_word[0] in vowels) == 1:
             first_pig_latin = first_word + 'hay'

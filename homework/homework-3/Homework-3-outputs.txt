@@ -1,0 +1,74 @@
+Python 2.7.13 (v2.7.13:a06454b1afa1, Dec 17 2016, 12:39:47) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+ RESTART: /Users/mimartin/Documents/my-stuff/python/20776.-055--python-for-beginners/homework/homework-3/homework-3.py 
+Enter a three worded sentence without any punctuation.
+Hello Mellow Yellow
+ellohay ellowmay ellowyay
+Enter a three worded sentence without any punctuation.
+Achoo cooh caChOo
+achoohay oohcay achoocay
+Enter a three worded sentence without any punctuation.
+Homer Jay Simpson
+omerhay ayjay impsonsay
+Enter a three worded sentence without any punctuation.
+Ralph Waldo Emerson
+alphray aldoway emersonhay
+Enter a three worded sentence without any punctuation.
+Michael Jonathan Martin
+ichaelmay onathanjay artinmay
+Enter a three worded sentence without any punctuation.
+Michael J$onathan Martin
+Your sentence must contain letters only!
+Your inputs must be letters only!
+Enter a three worded sentence without any punctuation.
+b 
+Your sentence does not have enough words!
+Enter a three worded sentence without any punctuation.
+b b 
+Your sentence does not have enough words!
+Enter a three worded sentence without any punctuation.
+A A
+Your sentence does not have enough words!
+Enter a three worded sentence without any punctuation.
+	
+Your sentence does not have enough words!
+Enter a three worded sentence without any punctuation.
+$ $ $ 
+Your sentence must contain letters only!
+Your inputs must be letters only!
+Enter a three worded sentence without any punctuation.
+$
+Your sentence does not have enough words!
+Enter a three worded sentence without any punctuation.
+$ $
+Your sentence does not have enough words!
+Enter a three worded sentence without any punctuation.
+*
+Your sentence does not have enough words!
+Enter a three worded sentence without any punctuation.
+#
+Your sentence does not have enough words!
+Enter a three worded sentence without any punctuation.
+# # #
+Your sentence must contain letters only!
+Your inputs must be letters only!
+Enter a three worded sentence without any punctuation.
+abcdefghijklmnopqrstuvwxyz! A A
+Your sentence must contain letters only!
+Your inputs must be letters only!
+Enter a three worded sentence without any punctuation.
+158 1558 166
+Your sentence must contain letters only!
+Your inputs must be letters only!
+Enter a three worded sentence without any punctuation.
+ 0 0 0 
+Your sentence must contain letters only!
+Your inputs must be letters only!
+Enter a three worded sentence without any punctuation.
+                    f                    z                   T
+fay zay tay
+Enter a three worded sentence without any punctuation.
+quit
+>>> 
