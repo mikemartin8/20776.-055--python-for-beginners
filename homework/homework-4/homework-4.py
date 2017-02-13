@@ -34,24 +34,39 @@ def AskForCityNames(num_cities):
     list_length =   len(range(0,num_cities+1,1))
     city_list =          []
     for i in range(0,num_cities,1):
-        print i
         city_name =     [raw_input("Enter a new city you'd like to visit:\n")]
-        print 'length of city list',len(city_name)
         city_list =     city_list + city_name
-    print city_list
+    #print city_list
     return city_list
 
 def CheckForDuplicatesInList(city_list):
     length = len(city_list)
     for i in range(0,length,1):
         for j in range(1,length,1):
-            if i == j:
-                print 'skipping checks at same indeces'
-            elif (city_list[i] == city_list[j]) & (i != j):
-                print 'No duplicate entries'
+            if (city_list[i] == city_list[j]) & (i != j):
+                print 'No duplicate entries. Duplicate entry removed.'
+                city_list[i] = ""
             else:
-                print i,j
+                'ok'
+    cities = city_list
+    print cities
+    return cities
 
+def ReturnCitiesToVisit(cities):
+    length =        len(cities)
+    trip_summary =  ''
+    for i in range(0,length,1):
+        if cities[i] == "":
+            print 'is blank'
+        else:
+            trip_summary = trip_summary + 'You would like to visit ' + cities[i] + ' as city ' + str(i) + ' '
+            print 'is not blank'
+    print trip_summary
         
-blah = AskForNumberCities()
-AskForCityNames(blah)
+blah =      AskForNumberCities()
+city_list = AskForCityNames(blah)
+cities =    CheckForDuplicatesInList(city_list)
+ReturnCitiesToVisit(cities)
+
+#     "You would like to visit San Francisco as city 1 and San Diego as City 2
+#     and Palo Alto as city 3 on your trip."

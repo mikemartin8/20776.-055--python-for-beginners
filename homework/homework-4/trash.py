@@ -17,11 +17,11 @@
 ##for item in enumerate(list_1):
 ##    print item
 
-city_list = ['sf','sf','sh','SSF','yf']
+city_list = ['sf','sf','sf','SSF','sf']
 
 length = len(city_list)
 for i in range(0,length,1):
-    for j in range(1,length,1):
+    for j in range(i,length,1):
         if (city_list[i] == city_list[j]) & (i != j):
             print i,j, 'duplicate'#'i=',i,'j=',j,city_list[i],'is a duplicate'
         elif i == j:
