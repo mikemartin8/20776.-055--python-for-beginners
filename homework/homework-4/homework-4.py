@@ -23,11 +23,11 @@
 
 
 def AskForNumberCities():
-    num_cities = '4' #raw_input('How many different cities do you want to travel to?\n')
+    num_cities = '1' #raw_input('How many different cities do you want to travel to?\n')
     if num_cities.isdigit() == False:
         print 'You must enter a real, rational, non-zero number only!'
     else:
-        print num_cities
+        'ok'
     return int(num_cities)
 
 def AskForCityNames(num_cities):
@@ -36,7 +36,6 @@ def AskForCityNames(num_cities):
     for i in range(0,num_cities,1):
         city_name =     [raw_input("Enter a new city you'd like to visit:\n")]
         city_list =     city_list + city_name
-    #print city_list
     return city_list
 
 def CheckForDuplicatesInList(city_list):
@@ -44,29 +43,52 @@ def CheckForDuplicatesInList(city_list):
     for i in range(0,length,1):
         for j in range(1,length,1):
             if (city_list[i] == city_list[j]) & (i != j):
-                print 'No duplicate entries. Duplicate entry removed.'
                 city_list[i] = ""
             else:
                 'ok'
     cities = city_list
-    print cities
     return cities
 
-def ReturnCitiesToVisit(cities):
+def CitiesToVisitSentence(cities):
     length =        len(cities)
     trip_summary =  ''
     for i in range(0,length,1):
         if cities[i] == "":
-            print 'is blank'
+            'is blank'
         else:
-            trip_summary = trip_summary + 'You would like to visit ' + cities[i] + ' as city ' + str(i) + ' '
-            print 'is not blank'
+            'do'"You would like to visit " + trip_summary
+    updated_cities =    filter(None,cities)
+    preamble =          'You would like to visit '
+    end =               'on your trip.'
+    trip_summary =      ''
+    for j in range(0,len(updated_cities),1):
+        trip_summary = trip_summary + updated_cities[j] + ' as city ' + str(j+1) + ' and '
+    trip_summary = preamble + trip_summary + end
     print trip_summary
+    return trip_summary
+
+def UpdateTripSentence(trip_sentence):
+    trip_sentence_list =    trip_sentence.split()
+    list_length =           len(trip_sentence_list)
+    for k in range(0,list_length,1):
+        if trip_sentence_list[k].isdigit() == True:
+            print trip_sentence_list[k]
+            integer_value = int(trip_sentence_list[k])+1
+            print integer_value
+            trip_sentence_list[k] = str(integer_value)
+            print trip_sentence_list[k]
+            print 'something'
+        else:
+            'skip'
+    return trip_sentence
+            
         
 blah =      AskForNumberCities()
 city_list = AskForCityNames(blah)
 cities =    CheckForDuplicatesInList(city_list)
-ReturnCitiesToVisit(cities)
+sentence =  CitiesToVisitSentence(cities)
+a = UpdateTripSentence(sentence)
+print a
 
 #     "You would like to visit San Francisco as city 1 and San Diego as City 2
 #     and Palo Alto as city 3 on your trip."
