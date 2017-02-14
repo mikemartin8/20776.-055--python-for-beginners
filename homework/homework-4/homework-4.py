@@ -23,7 +23,7 @@
 
 
 def AskForNumberCities():
-    num_cities = '1' #raw_input('How many different cities do you want to travel to?\n')
+    num_cities = raw_input('How many different cities do you want to travel to?\n')
     if num_cities.isdigit() == False:
         print 'You must enter a real, rational, non-zero number only!'
     else:
@@ -35,8 +35,14 @@ def AskForCityNames(num_cities):
     city_list =          []
     for i in range(0,num_cities,1):
         city_name =     [raw_input("Enter a new city you'd like to visit:\n")]
-        city_list =     city_list + city_name
+        if ' ' in city_name[i] == True:
+            ######this is swhere i left off####
+        if city_name[0].isalpha() == False:
+            print 'Your city name must contain letters only.'
+        else:
+            city_list =     city_list + city_name
     return city_list
+    print city_list
 
 def CheckForDuplicatesInList(city_list):
     length = len(city_list)
@@ -48,6 +54,7 @@ def CheckForDuplicatesInList(city_list):
                 'ok'
     cities = city_list
     return cities
+    print cities
 
 def CitiesToVisitSentence(cities):
     length =        len(cities)
@@ -64,23 +71,20 @@ def CitiesToVisitSentence(cities):
     for j in range(0,len(updated_cities),1):
         trip_summary = trip_summary + updated_cities[j] + ' as city ' + str(j+1) + ' and '
     trip_summary = preamble + trip_summary + end
-    print trip_summary
     return trip_summary
 
 def UpdateTripSentence(trip_sentence):
     trip_sentence_list =    trip_sentence.split()
     list_length =           len(trip_sentence_list)
+    white_space =           ' '
     for k in range(0,list_length,1):
         if trip_sentence_list[k].isdigit() == True:
-            print trip_sentence_list[k]
             integer_value = int(trip_sentence_list[k])+1
-            print integer_value
             trip_sentence_list[k] = str(integer_value)
-            print trip_sentence_list[k]
-            print 'something'
         else:
             'skip'
-    return trip_sentence
+    updated_trip_summary = white_space.join(trip_sentence_list)
+    return updated_trip_summary
             
         
 blah =      AskForNumberCities()
