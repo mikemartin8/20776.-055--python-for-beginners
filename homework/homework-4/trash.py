@@ -13,24 +13,29 @@
 ##    print i,'bottles of beer on the wall,',i,' bottles of beer!'
 ##    print 'So take it down, pass it around,',i-1,' more bottles of beer on the wall!'
 
-##list_1 = ['Yo Yo Ma', 1234, 2011, ['Yo Yo Pa']]
-##for item in enumerate(list_1):
-##    print item
+####list_1 = ['Yo Yo Ma', 1234, 2011, ['Yo Yo Pa']]
+####for item in enumerate(list_1):
+####    print item
+##
+##city_list = ['sf','sf','sf','SSF','sf']
+##
+##length = len(city_list)
+##for i in range(0,length,1):
+##    for j in range(i,length,1):
+##        if (city_list[i] == city_list[j]) & (i != j):
+##            print i,j, 'duplicate'#'i=',i,'j=',j,city_list[i],'is a duplicate'
+##        elif i == j:
+##            print i, j,'same indices'
+##        else:
+##            print i,j, 'not duplicate'
+##
 
-city_list = ['sf','sf','sf','SSF','sf']
-
-length = len(city_list)
-for i in range(0,length,1):
-    for j in range(i,length,1):
-        if (city_list[i] == city_list[j]) & (i != j):
-            print i,j, 'duplicate'#'i=',i,'j=',j,city_list[i],'is a duplicate'
-        elif i == j:
-            print i, j,'same indices'
-        else:
-            print i,j, 'not duplicate'
-
-
-                
+num_cities = 4
+list_length = len(range(0,num_cities+1,1))
+for i in range(0,num_cities,1):
+    print i
+    
+               
 ##print a
 ####print a[-1]
 ####print a[0]
