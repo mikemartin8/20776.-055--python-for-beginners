@@ -43,7 +43,7 @@ def AskForCityNames(num_cities):
     # Using a for loop to check the input of each city...
     # Using checks against each input to ensure each is in an acceptable format
     for i in range(0,num_cities,1):
-        city_name =     [raw_input("Enter a new city you'd like to visit:\n")]
+        city_name =     [raw_input("Enter the name of as city you'd like to visit:\n")]
         # checking if there is white space in the input
         if ' ' in city_name[0]:
             if city_name[0].strip() == '':
@@ -83,6 +83,7 @@ def CitiesToVisitSentence(cities):
     for k in range(0,len(updated_cities),1):
         trip_summary = trip_summary + updated_cities[k] + ' as city ' + str(k+1) + ' and '
     trip_summary = preamble + trip_summary + end
+    trip_summary = trip_summary.replace('and on your trip.',end)
     return trip_summary
 
 # this function takes the previously generated sentence and adds one to each of
