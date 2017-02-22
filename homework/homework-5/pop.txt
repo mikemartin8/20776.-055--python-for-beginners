@@ -1,0 +1,351 @@
+['0', 'Python for beginners is fun and easy\n']['0', 'Python for beginners is fun and easy\n', '1', 'we are well on our way to learning File I/O\n']['0', 'Python for beginners is fun and easy\n', '1', 'we are well on our way to learning File I/O\n', '2', 'hardy har har\n']['0', 'Python for beginners is fun and easy\n', '1', 'we are well on our way to learning File I/O\n', '2', 'hardy har har\n', '3', '1\n']['0', 'Python for beginners is fun and easy\n', '1', 'we are well on our way to learning File I/O\n', '2', 'hardy har har\n', '3', '1\n', '4', '2\n']['0', 'Python for beginners is fun and easy\n', '1', 'we are well on our way to learning File I/O\n', '2', 'hardy har har\n', '3', '1\n', '4', '2\n', '5', '3\n']['0', 'Python for beginners is fun and easy\n', '1', 'we are well on our way to learning File I/O\n', '2', 'hardy har har\n', '3', '1\n', '4', '2\n', '5', '3\n', '7', '5\n']['0', 'Python for beginners is fun and easy\n', '1', 'we are well on our way to learning File I/O\n', '2', 'hardy har har\n', '3', '1\n', '4', '2\n', '5', '3\n', '7', '5\n', '8', '6\n']['0', 'Python for beginners is fun and easy\n', '1', 'we are well on our way to learning File I/O\n', '2', 'hardy har har\n', '3', '1\n', '4', '2\n', '5', '3\n', '7', '5\n', '8', '6\n', '9', '7']0Python for beginners is fun and easy
+0Python for beginners is fun and easy
+1we are well on our way to learning File I/O
+0Python for beginners is fun and easy
+1we are well on our way to learning File I/O
+2hardy har har
+0Python for beginners is fun and easy
+1we are well on our way to learning File I/O
+2hardy har har
+31
+0Python for beginners is fun and easy
+1we are well on our way to learning File I/O
+2hardy har har
+31
+42
+0Python for beginners is fun and easy
+1we are well on our way to learning File I/O
+2hardy har har
+31
+42
+53
+0Python for beginners is fun and easy
+1we are well on our way to learning File I/O
+2hardy har har
+31
+42
+53
+75
+0Python for beginners is fun and easy
+1we are well on our way to learning File I/O
+2hardy har har
+31
+42
+53
+75
+86
+0Python for beginners is fun and easy
+1we are well on our way to learning File I/O
+2hardy har har
+31
+42
+53
+75
+86
+970Python for beginners is fun and easy
+0Python for beginners is fun and easy
+1we are well on our way to learning File I/O
+0Python for beginners is fun and easy
+1we are well on our way to learning File I/O
+2hardy har har
+0Python for beginners is fun and easy
+1we are well on our way to learning File I/O
+2hardy har har
+31
+0Python for beginners is fun and easy
+1we are well on our way to learning File I/O
+2hardy har har
+31
+42
+0Python for beginners is fun and easy
+1we are well on our way to learning File I/O
+2hardy har har
+31
+42
+53
+0Python for beginners is fun and easy
+1we are well on our way to learning File I/O
+2hardy har har
+31
+42
+53
+75
+0Python for beginners is fun and easy
+1we are well on our way to learning File I/O
+2hardy har har
+31
+42
+53
+75
+86
+0Python for beginners is fun and easy
+1we are well on our way to learning File I/O
+2hardy har har
+31
+42
+53
+75
+86
+97 0Python for beginners is fun and easy
+ 0Python for beginners is fun and easy
+ 1we are well on our way to learning File I/O
+ 0Python for beginners is fun and easy
+ 1we are well on our way to learning File I/O
+ 2hardy har har
+ 0Python for beginners is fun and easy
+ 1we are well on our way to learning File I/O
+ 2hardy har har
+ 31
+ 0Python for beginners is fun and easy
+ 1we are well on our way to learning File I/O
+ 2hardy har har
+ 31
+ 42
+ 0Python for beginners is fun and easy
+ 1we are well on our way to learning File I/O
+ 2hardy har har
+ 31
+ 42
+ 53
+ 0Python for beginners is fun and easy
+ 1we are well on our way to learning File I/O
+ 2hardy har har
+ 31
+ 42
+ 53
+ 75
+ 0Python for beginners is fun and easy
+ 1we are well on our way to learning File I/O
+ 2hardy har har
+ 31
+ 42
+ 53
+ 75
+ 86
+ 0Python for beginners is fun and easy
+ 1we are well on our way to learning File I/O
+ 2hardy har har
+ 31
+ 42
+ 53
+ 75
+ 86
+ 970 Python for beginners is fun and easy
+0 Python for beginners is fun and easy
+1 we are well on our way to learning File I/O
+0 Python for beginners is fun and easy
+1 we are well on our way to learning File I/O
+2 hardy har har
+0 Python for beginners is fun and easy
+1 we are well on our way to learning File I/O
+2 hardy har har
+3 1
+0 Python for beginners is fun and easy
+1 we are well on our way to learning File I/O
+2 hardy har har
+3 1
+4 2
+0 Python for beginners is fun and easy
+1 we are well on our way to learning File I/O
+2 hardy har har
+3 1
+4 2
+5 3
+0 Python for beginners is fun and easy
+1 we are well on our way to learning File I/O
+2 hardy har har
+3 1
+4 2
+5 3
+7 5
+0 Python for beginners is fun and easy
+1 we are well on our way to learning File I/O
+2 hardy har har
+3 1
+4 2
+5 3
+7 5
+8 6
+0 Python for beginners is fun and easy
+1 we are well on our way to learning File I/O
+2 hardy har har
+3 1
+4 2
+5 3
+7 5
+8 6
+9 70: Python for beginners is fun and easy
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+4: 2
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+4: 2
+5: 3
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+4: 2
+5: 3
+7: 5
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+4: 2
+5: 3
+7: 5
+8: 6
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+4: 2
+5: 3
+7: 5
+8: 6
+9: 70: Python for beginners is fun and easy
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+4: 2
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+4: 2
+5: 3
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+4: 2
+5: 3
+7: 5
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+4: 2
+5: 3
+7: 5
+8: 6
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+4: 2
+5: 3
+7: 5
+8: 6
+9: 70: Python for beginners is fun and easy
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+4: 2
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+4: 2
+5: 3
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+4: 2
+5: 3
+7: 5
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+4: 2
+5: 3
+7: 5
+8: 6
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+4: 2
+5: 3
+7: 5
+8: 6
+9: 70: Python for beginners is fun and easy
+0: Python for beginners is fun and easy
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+4: 2
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+4: 2
+5: 3
+0: Python for beginners is fun and easy
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+4: 2
+0: Python for beginners is fun and easy
+1: we are well on our way to learning File I/O
+2: hardy har har
+3: 1
+4: 2
+5: 3
