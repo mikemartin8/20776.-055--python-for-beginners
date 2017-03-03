@@ -19,21 +19,18 @@ def AskForFileName():
 def ReadFileContents(file_name):
     tmp = ''
     for i, line in enumerate(file_name):
-        #print line THIS IS WHERE I STOPPED. NOW KNOW HOW TO HAVE THIS IF STATEMENT HANDLE 'ATOM'. PROCEED
-        if 'ATOM' in line:
-            print i
-            print 'hahah'
-            break
-        else:
-            #print line
-            tmp = tmp + str('{:0>4d}'.format(i)) + ': ' + line
-    all_file_contents = tmp
+        tmp = tmp + str('{:0>4d}'.format(i)) + ': ' + line
     file_name.close()
+    all_file_contents = tmp
     return all_file_contents
 
 def BuildHeadList(all_file_contents):
-    for i, line in enumerate(all_file_contents):
-        print line + str(i)
+    tmp = ''
+    for i, line in enumerate(file_name):
+        if 'ATOM   ' in line:
+            break
+        else:
+            tmp = tmp + str('{:0>4d}'.format(i)) + ': ' + line
     
     
     

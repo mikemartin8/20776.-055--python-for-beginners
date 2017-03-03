@@ -15,9 +15,20 @@
 ##print pop
 ##f.close()
 
-a = 'ATOM      1  N   LYS A   1       1.300  19.462  22.166  1.00 10.50           N '
-'ATOM' in a
-if 'ATOM' in a:
-    print 'ATOM in a'
-else:
-    print 'ATOM not in a'
+##a = 'ATOM      1  N   LYS A   1       1.300  19.462  22.166  1.00 10.50           N '
+##'ATOM' in a
+##if 'ATOM' in a:
+##    print 'ATOM in a'
+##else:
+##    print 'ATOM not in a'
+
+import StringIO
+
+foo = '''hello
+world
+guy '''
+s = StringIO.StringIO(foo)
+print foo
+print s
+for line in s:
+    print line
